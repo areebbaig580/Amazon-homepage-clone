@@ -1,0 +1,325 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+    margin-top: 0.45rem;
+}
+
+.border {
+    border: 2px;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+/* second nav bar box */
+
+.location.bottom {
+    display: flex;
+    align-items: center;
+    
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    margin-left: 3px;
+}
+
+/* box3 */
+
+.search {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    max-width: 700px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgb(255, 179, 0);
+}
+
+.search:hover {
+    border: 2px solid orange;
+}
+
+.search-all {
+    color: black;
+    width: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-box {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    color: black
+}
+
+.search-mag-glass {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/* 4th & 5thbox */
+
+.up-text-nav {
+    font-size: 0.75rem;
+    color: #cccccc;
+}
+
+.bottom-text-nav {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* 6th box */
+
+.cart-nav {
+    display: flex;
+    align-items: center;
+}
+
+.cart-icon {
+    font-size: 1.5rem;
+
+}
+
+/* 2nd nav bar  */
+
+
+/* 1st box */
+.Anchor-nav {
+    margin-top: 60px; 
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.nav-bar {
+    margin-right: 6px;
+}
+
+.allanchor {
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.anchor-options p {
+    display: inline;
+    margin-left: 15px;
+
+
+}
+
+.anchor-options {
+    width: 90%;
+    font-size: 0.85rem;
+}
+
+/* main body */
+
+
+.hero-section {
+    height: 350px;
+    background-image: url(hero/bg\ amazon.jpg);
+    background-size: cover;
+}
+
+
+/* shop section boxes */
+
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #D6E6CF;
+}
+
+.box {
+    height: 320px;
+    width: 23%;
+    background-color: white;
+    color: black;
+    margin-top: 1rem;
+}
+
+.box h2 {
+    color: #0F1111;
+    margin-left: 0.6rem;
+    margin-top: 0.4rem;
+    font-size: 21px;
+}
+
+.productgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+
+.productgrid img {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+
+}
+
+.see-more a {
+    color: #007185;
+    text-decoration: none;
+    margin-left: 0.6rem;
+    margin-top: 0.4rem;
+
+
+}
+
+.see-more a:hover {
+    text-decoration: underline;
+}
+
+.sectionbox {
+    height: 250px;
+    background-color: white;
+    width: 97%;
+    margin-top: 1rem;
+}
+
+.sectionbox h2 {
+    color: #0F1111;
+    margin-left: 1rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
+    font-size: 23px;
+
+}
+
+.sectionbox a {
+    color: #007185;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.sectionbox a:hover {
+    text-decoration: underline;
+
+}
+
+
+/* footer */
+
+.footpanel-1 {
+    height: 48px;
+    width: 100%;
+    display: flex;
+    background-color: #374351;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 700
+}
+
+.footpanel-1:hover {
+    background-color: #475769;
+
+}
+
+.footpanel-2 {
+    height: 300px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul h2{
+    font-size: 15px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+ul a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    color: #dddddd;
+    margin-top: 1rem;
+    
+}
+ul a:hover{
+    text-decoration: underline;
+}
+
+.footpanel-3 {
+    height: 100px;
+    width: 100%;
+    background-color: #222f3d;
+    border-top: 0.1px solid #D6E6CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footpanel-3 img{
+    height: 40px;
+    width: auto;
+}
+
+.footpanel-4 {
+    height: 80px;
+    width: 100%;
+    background-color: #0c1519;
+    font-size: 0.75rem;
+    text-align: center;
+}
+.pages {
+    padding-top: 1rem;
+}
+.pages a{
+    text-decoration: none;
+    margin-right: 0.5rem;
+}
+.pages a:hover{
+    text-decoration: underline;
+}
+.copywright{
+    margin-top: 0.5rem;
+}
